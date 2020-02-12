@@ -33,7 +33,7 @@ while 1 ==1:
     time.sleep(60)
 
 #Tech Indicators - Relative Strength Indicator (RSI) High RSI overbought, Low RSI oversold
-period = 60
+period = 3600
 techind = TechIndicators(key = apikey, output_format = 'pandas')
 datatechind, metadata_techind = techind.get_rsi(symbol = 'AMZN', interval = '60min',
                                            time_period = period, series_type= 'close')
