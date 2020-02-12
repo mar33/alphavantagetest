@@ -15,7 +15,7 @@ Created on Wed Feb 12 20:23:41 2020
 #5 calls within a minute which is not bad, and up to 500 calls a day for the free version
 
 import pandas as pd
-apikey = '4NU24I6VRCGT040D'
+apikey = 'YOUROWNKEY'
 from alpha_vantage.timeseries import TimeSeries
 import time
 import matplotlib.pyplot as plt
